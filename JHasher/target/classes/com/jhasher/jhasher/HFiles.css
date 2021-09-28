@@ -1,0 +1,47 @@
+.root{
+-fx-background-color: #323232;
+}
+
+#HFilesPane{
+-fx-background-color: linear-gradient(to right bottom, #ffe800, #ffba00, #ff8a1c, #ff553e, #ff0059);
+}
+
+.button{
+-fx-border-radius: 0;
+-fx-background-color: Orange;
+-fx-border-color:Transparent;
+-fx-font-size: 1em;
+}
+.button:pressed:hover {
+-fx-background-color: Transparent;
+    -fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+    -fx-border-radius: 20;
+    -fx-text-fill:White;
+    -fx-font-size: 1.5em;
+}
+
+.button:hover {
+-fx-background-color: Transparent;
+-fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+-fx-border-radius: 20;
+    -fx-text-fill:White;
+    -fx-font-size: 1.5em;
+}
+
+.text-area {
+    -fx-background-color: rgba(53,89,119,0.4);
+    -fx-text-color: White;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}

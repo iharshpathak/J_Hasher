@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="498.0" stylesheets="@HString.css" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jhasher.jhasher.HStringController">
+   <children>
+      <Pane fx:id="HStringPane" layoutX="6.0" layoutY="6.0" prefHeight="587.0" prefWidth="486.0" stylesheets="@HString.css">
+         <children>
+            <Label fx:id="HLabel" alignment="CENTER" layoutX="16.0" layoutY="15.0" prefHeight="85.0" prefWidth="448.0" text="E n t e r  T h e T e x t " textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="myChoiceBox" layoutX="145.0" layoutY="242.0" prefHeight="33.0" prefWidth="186.0" style="-fx-background-color: Transparent; -fx-border-color: #2222;" />
+            <Label fx:id="SLabel" alignment="CENTER" layoutX="145.0" layoutY="293.0" prefHeight="33.0" prefWidth="186.0" text="S e l e c t  A n  A l g o r i t h m" textAlignment="RIGHT">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="stringText" layoutX="35.0" layoutY="373.0" prefHeight="31.0" prefWidth="411.0" promptText="                                 Enter The Text Here" style="-fx-background-color: rgba(53,89,119,0.4); -fx-border-color: Yellow; -fx-text-color: White;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="StringButton" contentDisplay="CENTER" layoutX="160.0" layoutY="466.0" mnemonicParsing="false" onAction="#SHashEvent" stylesheets="@Home.css" text="G e n e r a t e  H a s h " />
+            <Label fx:id="HLabel2" alignment="CENTER" layoutX="27.0" layoutY="79.0" prefHeight="77.0" prefWidth="432.0" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="StrStage" alignment="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#GoBack" prefHeight="57.0" prefWidth="63.0" stylesheets="@HString.css" text="&lt;">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</AnchorPane>

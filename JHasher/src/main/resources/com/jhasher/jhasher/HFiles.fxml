@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="FvAnchorPane" prefHeight="600.0" prefWidth="498.0" stylesheets="@HFiles.css" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jhasher.jhasher.HFilesController">
+   <children>
+      <Pane fx:id="HFilesPane" layoutX="6.0" layoutY="6.0" prefHeight="587.0" prefWidth="486.0">
+         <children>
+            <Button fx:id="backHFButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" prefHeight="66.0" prefWidth="95.0" stylesheets="@HString.css" text="&lt;" />
+            <Label fx:id="SFileLabel" alignment="CENTER" layoutX="90.0" layoutY="43.0" prefHeight="52.0" prefWidth="330.0" text="H a s h  F i l e s" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="myFChoiceBox" layoutX="49.0" layoutY="178.0" prefWidth="150.0" style="-fx-background-color: Transparent; -fx-border-color: #2222;" />
+            <Label fx:id="SAlLabel" alignment="CENTER" layoutX="77.0" layoutY="236.0" prefHeight="21.0" prefWidth="95.0" text="S e l e c t" />
+            <Label fx:id="selectAlLabel2" alignment="CENTER" layoutX="49.0" layoutY="267.0" prefHeight="21.0" prefWidth="150.0" text="A l g o r i t h m" />
+            <Button fx:id="myFileOpener" alignment="CENTER" layoutX="263.0" layoutY="178.0" mnemonicParsing="false" onAction="#FileC" prefHeight="33.0" prefWidth="150.0" text="O p e n  F i l e" />
+            <TextArea fx:id="myGenHash" layoutX="37.0" layoutY="351.0" prefHeight="82.0" prefWidth="411.0" style="-fx-border-color: Yellow;" stylesheets="@HFiles.css" wrapText="true" />
+            <Button fx:id="GenFHButton" alignment="CENTER" layoutX="138.0" layoutY="489.0" mnemonicParsing="false" onAction="#GetHashF" prefHeight="33.0" prefWidth="203.0" text="G e n e r a t e  H a s h" />
+            <Label fx:id="SFileLabel2" alignment="CENTER" layoutX="95.0" layoutY="89.0" prefHeight="52.0" prefWidth="318.0" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

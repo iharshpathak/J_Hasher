@@ -1,0 +1,31 @@
+.root{
+-fx-background-color: #323232;
+}
+
+#HStringPane{
+-fx-background-color: linear-gradient(to right bottom, #ffe800, #ffba00, #ff8a1c, #ff553e, #ff0059);
+}
+
+.button{
+-fx-border-radius: 0;
+-fx-background-color: Transparent;
+-fx-border-color:Transparent;
+-fx-text-fill: White;
+-fx-font-weight: bolder;
+-fx-font-size: 1.5em;
+}
+.button:pressed:hover {
+-fx-background-color: Transparent;
+    -fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+    -fx-border-radius: 50,50;
+    -fx-text-fill:White;
+    -fx-font-size: 2em;
+}
+
+.button:hover {
+-fx-background-color: Transparent;
+-fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+-fx-border-radius: 50,50;
+    -fx-text-fill:White;
+    -fx-font-size: 2em;
+}

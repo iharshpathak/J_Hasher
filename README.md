@@ -31,7 +31,7 @@ J hasher is currently in Beta State and is actively being developed.
 
 ## Downloads
 
-Currently we offer an executable .jar build of J Hasher. Which requires JRE v17.0 and Above.
+Currently we offer an executable [.jar build of J Hasher.](https://github.com/iharshpathak/J_Hasher/tree/main/JHasher/out/artifacts/JHasher_jar) Which requires JRE v17.0 and Above.
 You can build the native executable using [launch4j](http://launch4j.sourceforge.net/) and [JDK v17](https://openjdk.java.net/)
 
 
